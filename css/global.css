@@ -1,0 +1,61 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  display: inline-block;
+  text-decoration: none;
+}
+
+span {
+  display: inline-block;
+}
+
+button {
+  border: none;
+  cursor: pointer;
+  background-color: transparent;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+ul, ol {
+  list-style: none;
+}
+
+.fulled-container {
+  width: 100%;
+}
+
+.container {
+  width: 1320px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+
+.relative-p {
+  position: relative;
+}
+
+.bg {
+  position: absolute;
+  background-repeat: no-repeat;
+}
+
+*::before,
+*::after {
+  display: inline-block;
+  background-repeat: no-repeat;
+}
